@@ -1,5 +1,6 @@
 public class HomeWork5 {
     public static void main(String[] args) {
-//задача
+//задача 1
+        // задача 2
     }
 }
