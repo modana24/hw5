@@ -10,15 +10,19 @@ public class HomeWork5 {
         }
 
         // задача 2
-        int clientDeviceYear = 2015;
+        int clientDeviceYear = 2002;
         if (clientOS == 0 && clientDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        }else if (clientOS == 0 && clientDeviceYear >= 2015){
+            System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (clientOS == 1 && clientDeviceYear < 2015){
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
-            }
+        } else if (clientOS == 1 && clientDeviceYear >= 2015){
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
 //задача 3
         int year = 2002;
-        if (year % 4 == 0 && year > 1584) {
+        if (year % 400 == 0 &&  year > 1584) {
             System.out.println(year + " год является високосным.");
         }else {
             System.out.println(year + " год не является високосным.");
