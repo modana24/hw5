@@ -22,13 +22,12 @@ public class HomeWork5 {
         }
 //задача 3
         int year = 2023;
-        if (year % 4 == 0 && year > 1584) {
-            if (year % 100 != 0 || year % 400 == 0) {
+        if (year % 4 == 0 && year > 1584 && year % 100 != 0 || year % 400 == 0) {
                 System.out.println(year + " год является високосным.");
             } else {
                 System.out.println(year + " год не является високосным.");
             }
-        }
+
 // задача 4
             int deliveryDistance = 95;
             if (deliveryDistance < 20) {
